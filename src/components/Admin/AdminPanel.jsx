@@ -166,7 +166,7 @@ export default function AdminPanel() {
                   value={formData.description}
                   onChange={(e) => setFormData({...formData, description: e.target.value})}
                   required
-                  rows="3"
+                  rows={3}
                 />
               </div>
 
