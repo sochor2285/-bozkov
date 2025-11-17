@@ -2,6 +2,17 @@
   min-height: 100vh;
 }
 
+.loading-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d1810 100%);
+  color: #daa520;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 /* Navigation */
 .navbar {
   position: fixed;
