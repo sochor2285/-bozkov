@@ -58,6 +58,9 @@ function App() {
 
       <section id="home" className="hero">
         <div className="hero-content">
+          <div className="hero-image">
+            <img src="/hero-photo.jpg" alt="Božkov" />
+          </div>
           <div className="hero-text">
             <h2 className="hero-title">BOŽKOV</h2>
             <p className="hero-subtitle">Česká tradice a řemeslná zručnost od roku 1948</p>
